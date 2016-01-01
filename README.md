@@ -1,6 +1,6 @@
 ## Docker: Bash
 
-[Docker](https://www.docker.com/) **commands** in Bash.
+[Bash](https://www.gnu.org/software/bash/) scripts for managing [Docker](https://www.docker.com/) **images** and **containers**.
 
 ### Installation
 
