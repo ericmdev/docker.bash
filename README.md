@@ -46,6 +46,14 @@ Runs `docker-machine env`.
 
 The [env](https://docs.docker.com/machine/reference/env/) command sets environment variables.
 
+**IP**
+
+    $ . bin/ip <default>
+
+Runs `docker-machine ip`.
+
+The [ip](https://docs.docker.com/machine/reference/ip/) command gets the IP address of a machine.
+
 **Logs**
 
     $ . bin/logs
