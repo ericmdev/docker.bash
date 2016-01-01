@@ -32,6 +32,12 @@ The [up](https://docs.docker.com/compose/reference/up/) command builds, (re)crea
 
 Accesses the bash shell of a running docker container.
 
+**Logs**
+
+    $ . bin/logs
+
+Logs of a docker container.
+
 **Env**
 
     $ . bin/env
