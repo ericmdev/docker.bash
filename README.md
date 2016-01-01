@@ -45,3 +45,11 @@ Logs of a docker container.
 Runs `docker-machine env`.
 
 The [env](https://docs.docker.com/machine/reference/env/) command sets environment variables.
+
+**Containers**
+
+    $ . bin/containers
+
+Runs `docker ps -a`.
+
+The [ps -a](https://docs.docker.com/engine/reference/commandline/ps/) command shows all containers.
