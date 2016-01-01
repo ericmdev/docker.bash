@@ -8,6 +8,12 @@
 
 ### Usage
 
+**Access**
+
+    $ . bin/access
+
+Accesses the bash shell of a running docker container.
+
 **Build**
 
     $ . bin/build
@@ -18,19 +24,19 @@ The [build](https://docs.docker.com/compose/reference/build/) command builds ser
 
 *Services are built once and then tagged as project_service.
 
-**Up**
+**Containers**
 
-    $ . bin/up
+    $ . bin/containers
 
-Runs `docker-compose up`.
+Runs `docker ps -a`.
 
-The [up](https://docs.docker.com/compose/reference/up/) command builds, (re)creates, starts, and attaches to containers.
+The [ps -a](https://docs.docker.com/engine/reference/commandline/ps/) command shows all containers.
 
-**Access**
+**Destroy**
 
-    $ . bin/access
+    $ . bin/destroy
 
-Accesses the bash shell of a running docker container.
+Stops and deletes all containers and images.
 
 **Env**
 
@@ -39,3 +45,26 @@ Accesses the bash shell of a running docker container.
 Runs `docker-machine env`.
 
 The [env](https://docs.docker.com/machine/reference/env/) command sets environment variables.
+
+**Logs**
+
+    $ . bin/logs
+
+Logs of a docker container.
+
+**Restart**
+
+    $ . bin/restart
+
+Runs `docker restart`.
+
+Restarts a docker container.
+
+**Up**
+
+    $ . bin/up
+
+Runs `docker-compose up`.
+
+The [up](https://docs.docker.com/compose/reference/up/) command builds, (re)creates, starts, and attaches to containers.
+
