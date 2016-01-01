@@ -1,10 +1,10 @@
-## Docker: Bash
+## Docker: Bin
 
 [Bash](https://www.gnu.org/software/bash/) scripts for managing [Docker](https://www.docker.com/) **images** and **containers**.
 
 ### Installation
 
-    $ git clone <repo> <docker_project>/bin
+    $ git clone <docker.bin> <docker_project>/bin
 
 ### Usage
 
