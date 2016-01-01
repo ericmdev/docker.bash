@@ -21,3 +21,9 @@ Runs the `docker-compose build` [command](https://docs.docker.com/compose/refere
     $ . bin/build
 
 *Services are built once and then tagged as project_service.
+
+**Env**
+
+Runs the `docker-machine env` [command](https://docs.docker.com/machine/reference/env/) to set environment variables.
+
+    $ . bin/env
