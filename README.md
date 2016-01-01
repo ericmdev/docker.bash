@@ -8,15 +8,16 @@
 
 ### Usage
 
-Build, (re)create, start, and attach to containers.
+**Up**
+
+Runs the `docker-compose up` [command](https://docs.docker.com/compose/reference/up/) to build, (re)create, start, and attach to containers.
 
     $ . bin/up
 
+**Build**
 
-Access the Bash shell of a running Docker container:
+Runs the `docker-compose build` [command](https://docs.docker.com/compose/reference/build/) to build services in docker-compose.yml.
 
-    $ . bin/access <container_name>
+    $ . bin/build
 
-Bash file extensions are considered redundant. To find out file use:
-
-    file scriptname
+*Services are built once and then tagged as project_service.
