@@ -10,26 +10,26 @@
 
 **Build**
 
-Run the `docker-compose build` - [build](https://docs.docker.com/compose/reference/build/) command to build services in docker-compose.yml.
-
     $ . bin/build
+
+Runs `docker-compose build`: the [build](https://docs.docker.com/compose/reference/build/) command to build services in docker-compose.yml.
 
 *Services are built once and then tagged as project_service.
 
 **Up**
 
-Run the `docker-compose up` - [up](https://docs.docker.com/compose/reference/up/) command to build, (re)create, start, and attach to containers.
-
     $ . bin/up
+
+Runs `docker-compose up`: the [up](https://docs.docker.com/compose/reference/up/) command to build, (re)create, start, and attach to containers.
 
 **Access**
 
-Access the bash shell of running docker container.
+    $ . bin/access
 
-    $ . bin/build
+Access the bash shell of running docker container.
 
 **Env**
 
-Run the `docker-machine env` - [env](https://docs.docker.com/machine/reference/env/) command to set environment variables.
-
     $ . bin/env
+
+Runs `docker-machine env`: the [env](https://docs.docker.com/machine/reference/env/) command to set environment variables.
