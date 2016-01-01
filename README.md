@@ -14,7 +14,7 @@
 
 Runs `docker-compose build`.
 
-The [build](https://docs.docker.com/compose/reference/build/) command to build services in docker-compose.yml.
+The [build](https://docs.docker.com/compose/reference/build/) command builds services in docker-compose.yml.
 
 *Services are built once and then tagged as project_service.
 
