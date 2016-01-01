@@ -11,3 +11,12 @@
 Build, (re)create, start, and attach to containers.
 
     $ . bin/up
+
+
+Access the Bash shell of a running Docker container:
+
+    $ . bin/access <container_name>
+
+Bash file extensions are considered redundant. To find out file use:
+
+    file scriptname
