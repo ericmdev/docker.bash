@@ -6,3 +6,8 @@
 
     $ git clone <repo> <docker_project>/bin
 
+### Usage
+
+Build, (re)create, start, and attach to containers.
+
+    $ . bin/up
